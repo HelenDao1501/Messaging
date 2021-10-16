@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSMS"
+        android:gravity="center"
+        android:onClick="clickToSendSMS"
+        android:text="Send SMS"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSMSIntent"
+        android:gravity="center"
+        android:onClick="clickToSendSMSIntent"
+        android:text="Send SMS using Intent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSMSFeedBack"
+        android:gravity="center"
+        android:onClick="clickToSendSMSFB"
+        android:text="Send SMS and Get Feedback"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSMSMessage"
+        android:text="Msg"
+/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendEmail"
+        android:gravity="center"
+        android:onClick="clickToSendEmail"
+        android:text="Send Email"/>
+</LinearLayout>
